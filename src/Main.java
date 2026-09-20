@@ -135,8 +135,6 @@ public class Main {
         System.out.println(animal.realizarHabilidade(habilidade));
     }
 
-    // ---- Metodos auxiliares de leitura, com tratamento simples de erro ----
-
     private static int lerInteiro(Scanner scanner) {
         while (!scanner.hasNextInt()) {
             System.out.print("Valor invalido, digite um numero inteiro: ");
